@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ysu.hongvs.topbar.MainActivity">
+
+    <com.ysu.hongvs.topbar.TopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        custom:left="Back"
+        custom:leftTextColor="#00ff00"
+        custom:leftBackground="#0000ff"
+
+        custom:right="right"
+        custom:rightBackground="#005500"
+        custom:rightTextColor="#ffffff"
+
+        custom:title="TopBAr"
+        custom:titleTextColor="#ff0000"
+        custom:titleTextSize="10sp"
+        ></com.ysu.hongvs.topbar.TopBar>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+       />
+
+</LinearLayout>
